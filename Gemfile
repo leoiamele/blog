@@ -33,6 +33,9 @@ gem 'simple_form'
 # Add .env file to keep passwords
 gem 'dotenv-rails', groups: [:development, :test]
 
+# Add cloudinary to allow user to upload images
+gem 'cloudinary', '~> 1.16.0'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
